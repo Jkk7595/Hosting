@@ -4,7 +4,36 @@ nav{
   padding:15px;
   
 }
+ ul{
+  background-color: black;
+  color: yellow;
+  border-radius: 30px;
+  text-align: center;
+}
 nav ul li{
   display: inline-block;
-  padding:10px ;
+  padding:5px 8px;
+  
+}
+ button{
+  background-color: maroon;
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 5px 8px;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+button:hover{
+  background-color: black;
+  color: yellow;
+}
+h1{
+  text-align: center;
+  color: brown;
+}
+img{
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
 }

@@ -1,9 +1,9 @@
-
+import logo from "../assets/tomato.jpg"
 export default function Navbar(){
 
     return(
         <nav>
-            <img src="" alt="Logo" />
+            <img src={logo} alt="Logo" />
             <ul>
                 <li>Home</li>
                 <li>About</li>
